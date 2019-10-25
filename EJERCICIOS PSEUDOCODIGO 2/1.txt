@@ -1,0 +1,8 @@
+Introducir por teclado la fecha actual y la fecha de nacimiento del usuario (día, mes y año) e indicar si es mayor
+de 20 años.
+
+Primero habrá que introducir la fecha actual y posteriormente la fecha de nacimiento del usuario, tras esto se deberán
+de almacenar los datos introducidos numéricamente, de manera que se puedan realizar comparaciones entre dias,meses y años.
+Se compará primeramente si la diferencia entre años es mayor a 20, más tarde si la diferencia entre años es 20 y el mes 
+de nacimiento mayor al actual y finalmente si la diferencia entre los años es igual a 20, el mes es el mismo pero si el
+dia de nacimieno es mayor o igual al actual

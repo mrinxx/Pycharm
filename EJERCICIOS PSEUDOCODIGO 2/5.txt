@@ -1,0 +1,6 @@
+Solicitar por teclado un número en hexadecimal y calcular su valor en decimal. Se debe comprobar la corrección
+de número introducido
+
+Se solicitará el número, tras lo que se comprobará si los digitos por los que está compuesto están comprendidos 
+en los valores de dicho sistema, es decir,numeros del 0-9 y letras de la A-F. Una vez comprobado que esté 
+se pasará a hacer el sumatorio de todos los dígitos del nº hexadecimal por su base elevado a sus pesos.

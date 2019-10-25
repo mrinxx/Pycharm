@@ -1,0 +1,6 @@
+Dados tres números,	deducir	cuál es	el	central.
+
+Pedir los tres numeros por pantalla, luego se iniciará una variable central para almacenar el valor que sea 
+el central. Posteriormente se abrirá una comparación de los tres números, en el caso que de positivo, el valor central
+se sustituirá por el del número especificado en ese caso.
+

@@ -1,0 +1,8 @@
+Diseñar	un	programa	que	a	partir	de	una	fecha	introducida	por	teclado	con	el	formato	día, mes, año,
+se	obtenga	la	fecha	del	día	siguiente.
+
+Introducir y almacenar la fecha que se desea. Tras ello convertirla a una cadena y añadir el separador "-".
+Tras ello se separará en variables cada elemento de la lista correspondiente con el dia, el mes y el año. Una vez 
+hecho esto se comparará si el dia y el mes están entre los valores normales para operar con ellos.
+Se compararán los meses y los dias para ir finalizando meses si corresponde y si el año es bisiesto para que en caso de
+que sea febrero, añadir el dia 29 o pasar a marzo.

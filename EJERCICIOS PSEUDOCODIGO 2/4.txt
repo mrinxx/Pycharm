@@ -1,0 +1,5 @@
+Solicitar un número en decimal por teclado y convertirlo a binario. Si no se conoce la forma de hacerlo, localizar
+el algoritmo en internet.
+
+Se solicitará el numero y usando un bucle, se irá dividiendo el mismo hasta que el dividendo sea menor o igual a 2, 
+los restos se almacenarán en una lista, a la cual se le añadirá el último dividendo

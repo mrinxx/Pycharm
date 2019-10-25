@@ -1,0 +1,5 @@
+Solicitar por teclado una cantidad de dinero con decimales hasta los céntimos y calcular el cambio en billetes y
+monedas de curso legal.
+
+Primeramente se pedirá por teclado el teclado y se irá dividiendo la cantidad dada, tras lo cual se mostrará por
+pantalla la cantidad de billetes y monedas que supone.

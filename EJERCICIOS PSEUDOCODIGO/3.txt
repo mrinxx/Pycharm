@@ -1,0 +1,7 @@
+Determinar	el	precio	de	un	billete	de	ida	y	vuelta	en	tren,	conociendo	la	distancia	a	recorrer	y	
+sabiendo	que	si	el	número	de	días	de	estancia	es	superior	a	siete	y	la	distancia	superior	
+a	800	km	el	billete	tiene	una	reducción	del	30%.	El	precio	por	kilómetro	es	de	10€.
+
+Primero introducir la distancia a recorrer y el tiempo de estancia. Una vez conocidos estos datos, calcular el precio,
+multiplicando el nº de kilómetros por 10. Tras esto, comprobar si la distancia es superior a 800km y el tiempo de 
+estancia mayor a 7 día, si es así, disminuir el precio en un 30%

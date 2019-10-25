@@ -1,0 +1,5 @@
+Calcular	la	raíz	cuadrada sin	decimales de	un	número	por	aproximación
+
+Introucir el número al que se le va a realizar la raíz cuadrada y entrar en un bucle en el que se realice la multiplicación
+del número que toque consigo mismo, teniendo en cuenta que siempre se quede con el valor que más se aproxime al numero 
+que se ha introducido

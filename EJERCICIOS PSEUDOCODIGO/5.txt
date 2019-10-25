@@ -1,0 +1,11 @@
+Se	desea	realizar	unas	estadísticas	de	las	alturas	de	los	alumnos	de	acuerdo	a	la	siguiente	tabla:
+Alumnos	más	altos	de 1,70	m
+Alumnos	entre	1,60	m	y 1,70	m inclusive
+Alumnos	entre	1,50	m	y 1,60	m inclusive
+Alumnos	más	bajos de 1,50	m,	incluyendo	1,50m
+Cuando	se	introduzca	una	altura	0,	debe	parar	de	solicitar	alturas	y	mostrar	los	resultados
+
+
+Leer altura de los alumnos, dividirlos en cuanto a la tabla y sumar uno en dicha clasificación, tras lo que se pasará
+al siguiente alumno, así sucesivamete hasta que se introduzca un 0, cuando esto sea así, parar de pedir alturas
+y mostrar cuantos hay en cada rango

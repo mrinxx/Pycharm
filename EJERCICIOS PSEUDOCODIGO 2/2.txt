@@ -1,0 +1,6 @@
+Introducir una fecha por teclado y el día de la semana del 1 de enero de ese año y calcular el día de la semana
+correspondiente a la fecha introducida.
+
+Primero habrá que introducir la fecha que se desee y el día de la semana del 1 de enero. se calculará el numero de 
+dias transcurridos entre el día 1 de enero y la fecha introducida. Tras ello se sumará el módulo de los dias totales que
+han pasado y 7 para ver cuantos días hay entre el dia en que cae el 1 de enero y el dia de la semana actual.
