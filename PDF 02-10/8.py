@@ -7,7 +7,7 @@ divisor=int(input("Introduce el segundo numero: ")) #pido divisor
 
 cociente=0 #el cociente realmente es un contador de las vueltas que da y lo inicio a 0 aqui
 
-for i in range (0,divisor+1): #para todos los valores de i que se encuentren entre 0 y el divisor
+while dividendo !=0: #mientras el dividendo no sea 0
     if dividendo>=divisor: #si el dividendo es mayor o igual que el divisor
         cociente+=1 #doy una vuelta más y lo pongo como el cociente
         dividendo-=divisor #se vuelve a calcular el dividendo para ver si queda algo y volver a entrar en el bucle o no

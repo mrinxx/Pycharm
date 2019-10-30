@@ -1,0 +1,8 @@
+Dada la siguiente serie: a1=0, a2=1, an=3*an-1+2*an-2 (para n>=3) Calcular el valor y el rango (la n) 
+del primer término mayor o igual a 1000.
+
+Inicializo dos variables que contengan 0 y 1 respectivamente. Inicializo otra variable que comience en 0
+para almacenar el rango y otra para el valor total.
+Entramos en un bucle en el que el valor se sustituirá por la suma de a+b, tras esto, a se convertirá en b y b se
+sustituirá por el valor que se lleve hasta el momento. La variable que contiene el rango irá creciendo de uno en 
+uno a medida que avanza el bucle. Si el valor es mayor o igual que 1000, mostrara el rango y el valor.º
