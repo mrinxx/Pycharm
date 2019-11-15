@@ -40,10 +40,10 @@ if d>=1 and d<=31: #si el dia esta en el rango de dias de un mes
 print(d,m,a,sep="-")
 
 
-# from datetime import datetime, datedelta
-# fecha= input("Ingrese fecha ==> "d/m/a": ")
-# fecha = datetime.strptime(fecha, '%d/%m/%Y')
-# print(fecha + timedelta(days=1))
+# from datetime import datetime, datedelta #importa libreria
+# fecha= input("Ingrese fecha ==> "d/m/a": ") #ingresa la fecha y le dice directamente el formato
+# fecha = datetime.strptime(fecha, '%d/%m/%Y') #la fecha la pasa a un formato de fecha que la libreria acepte
+# print(fecha + timedelta(days=1)) #le suma 1
 
     
 

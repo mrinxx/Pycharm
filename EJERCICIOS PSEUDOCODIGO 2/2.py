@@ -46,20 +46,23 @@ diasemana=f2+modulo-1 #para saber el dia en el que cae sumo el dia en el que cae
                         #sacado antes y le resto uno porque realmente el dia no ha pasado 
 
 #aqui voy a convertir el resultado que me de en un dia de la semana
-if diasemana == 1 :
-    f2="lunes"
-elif diasemana == 2:
-    diasemana="martes"
-elif diasemana == 3 :
-    diasemana="miércoles"
-elif diasemana == 4 :
-    diasemana="jueves"
-elif diasemana == 5:
-    diasemana="viernes"
-elif diasemana == 6 :
-    diasemana="sábado"
-elif diasemana == 7:
-    diasemana="domingo"
+while diasemana in range (1,8):
+    if diasemana == 1 :
+        diasm="lunes"
+    elif diasemana == 2:
+        diasm="martes"
+    elif diasemana == 3 :
+        diasm="miércoles"
+    elif diasemana == 4 :
+        diasm="jueves"
+    elif diasemana == 5:
+        diasm="viernes"
+    elif diasemana == 6 :
+        diasm="sábado"
+    elif diasemana == 7:
+        diasm="domingo"
+    diasemana-=1
+    
 
 f="-".join(f) #vuelvo a convertir la fecha que he introducido anteriormente en una cadena
-print("El dia",f,"cae en",diasemana)
+print("El dia",f,"cae en",diasm)

@@ -17,7 +17,7 @@ while dividendo >=2: #mientras que el dividendo sea SIEMPRE mayor o igual a dos 
         restos.append(str(resto)) #se añadirá de la misma manera que arriba
         dividendo=dividendo//2 #se calculará la division entera del dividendo que tenemos en ese momento y 2
         restos.append(str(dividendo))#se añadirá ese ultimo dividendo a la lista de los restos
-
+    
 restos.reverse() #como el binario se lee de abajo a arriba, damos la vuelta a la lista
 restos="".join(restos) #lo convierto a cadena de texto(lo junto)
 print ("La equivalencia de ",n,"en binario es",restos) #lo muestro

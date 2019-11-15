@@ -17,11 +17,11 @@ mesa=int(fa[1])
 anhoa=int(fa[2])
 
 
-if anhoa-anhon > 20:
+if anhoa-anhon > 20: #si la restas de los dos años de por si es mayor que 20
     print ("Es mayor de 20")
-elif anhoa-anhon == 20 and mesa>mesn:
+elif anhoa-anhon == 20 and mesa>mesn: #si laresta de los dos años es igual a 20 "pero ya ha pasado el mes de nacimiento del usuario"
     print ("Es mayor de 20")
-elif anhoa-anhon == 20 and mesa==mesn and diaa>=dian:
+elif anhoa-anhon == 20 and mesa==mesn and diaa>=dian: #si es la resta de los años da justamente 20, mismo mes pero el dia es el mismo o va despues que el de nacimiento
     print ("Es mayor de 20")
 else:
         print("Es menor de 20")

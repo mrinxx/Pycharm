@@ -1,0 +1,7 @@
+Dado un  mes del año y el día de la semana en que comienza, mostrar por pantalla una representación del
+calendario similar a la muestra:
+
+Primero se pedira el mes deseado, se estableceran los meses con sus respectivos numero de dias (30,31 y 28)
+Si esto no es correcto, mostrará un error, si no pedirá el numero de dia, se mostrará la cabecera y dependiendo
+del dia de la semana introducido,mientras que una variable este en el numero de dias, se imprimiran huecos 
+correspondientes y el numero de dia bajo su sigla del dia de la semana correspondiente
