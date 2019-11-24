@@ -7,15 +7,14 @@ import random #importo la biblioteca random para coger un elemento al azar de la
 
 palabras=['cerillas', 'patrulla', 'papel', 'azor', 'alerones', 'conversar', 'sollozo', 'manzana'] #declaro la lista
 
-palabravacia=[]
+
 fallos=5 #maximo de fallos
 contador=0
 elegida = random.randint(0, len(palabras)-1 ) #elige una palabra al azar de la lista anterior
 elegida=list(palabras[elegida]) #la palabra elegida al azar se convierte en lista
 palabravacia=[]
 solucion="".join(elegida)
-print(elegida)
-print(len(elegida))
+
 
 #para la lista de la palabra elegida voy a añadir espacios a otra lista, uno por caracter que haya
 for i in elegida: 
