@@ -33,9 +33,9 @@ for s in p: #para los valores en la lista de la palabra
     elif s == "i":
         s="I"
     elif s == "o":
-        s == "O"
+        s = "O"
     elif s=="u":
-        s =="U"
+        s ="U"
     mayusculas.append(s) #aqui se añade
 
 mayusculas="".join(mayusculas) #lo convierto a string

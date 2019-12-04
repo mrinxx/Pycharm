@@ -6,9 +6,6 @@
 
 c=input("Introduce una palabra: ") #introduzco la palabra
 c2=list(c) #lo creo en lista
-cuenta=0 #cuenta cuantas palabras hay
- #cuento para contar la repeticion
-vueltas=0 #abro para contar las vueltas
 estan=[]
 
 

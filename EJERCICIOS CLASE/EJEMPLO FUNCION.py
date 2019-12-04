@@ -1,5 +1,5 @@
 def sumatorio(lista): #una lista se define escribiendo def+nombre+(NOMBRE QUE VA A USAR LA VARIABLE DENTRO), 
-                       #no importa el nombre, ya que cuando llegue a la funcion tomará el nombre indicado
+                    #no importa el nombre, ya que cuando llegue a la funcion tomará el nombre indicado
     if lista[0] != type(1): #si el primer valor de la lista no es un entero
         return False #EL RETURN ES LO QUE QUEREMOS QUE SALGA AL EXTERIOR DESDE NUESTRA FUNCION
     for i in lista:
